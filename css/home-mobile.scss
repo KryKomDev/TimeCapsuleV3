@@ -1,0 +1,138 @@
+// 
+// TimeCapsule V3
+// by KryKom 2024
+//
+
+// import files
+@use 'utils/colors';
+@use 'utils/components';
+@use 'utils/palettes';
+
+//themes
+$theme-home: palettes.$rainbow-yellow;
+$theme-legacy: palettes.$rainbow-orange;
+$theme-photos: palettes.$rainbow-red;
+$theme-about: palettes.$rainbow-indigo;
+$theme-contact: palettes.$rainbow-blue;
+$theme-navigation: palettes.$rainbow-green;
+
+header {
+    display: flex;
+    margin: 0 20px 20px;
+    border-bottom: 1px solid palettes.$github-blue-gray;
+    
+    h1 {
+        font-size: 200%;
+        margin-right: 20px;
+        text-transform: uppercase;
+        color: $theme-navigation;
+        font-weight: 900;
+        letter-spacing: -2px;
+        word-spacing: 10px;
+    }
+}
+
+#home {
+    margin: 0 20px 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid palettes.$github-blue-gray;
+
+    h1 {
+        color: $theme-home;
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+}
+
+#legacy {
+    margin: 0 20px 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid palettes.$github-blue-gray;
+
+    h1 {
+        color: $theme-legacy;
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 90%;
+        margin-bottom: 20px;
+
+        strong {
+            color: $theme-legacy;
+        }
+    }
+}
+
+#photos {
+    margin: 0 20px 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid palettes.$github-blue-gray;
+
+    h1 {
+        color: $theme-photos;
+        font-size: 150%;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    p {
+        font-size: 80%;
+        margin-bottom: 30px;
+        margin-top: 5px;
+    }
+}
+
+#about {
+    margin: 0 20px 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid palettes.$github-blue-gray;
+
+    h1 {
+        color: $theme-about;
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    a {
+        text-decoration: 1px solid underline;
+        color: $theme-about;
+    }
+
+    h3 {
+        color: palettes.$github-white;
+    }
+}
+
+#contact {
+    margin: 0 20px 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid palettes.$github-blue-gray;
+    
+    h1 {
+        color: $theme-contact;
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+}
+
+footer {
+    margin: 0 20px 20px;
+
+    p {
+        font-size: 90%;
+        color: palettes.$github-light-blue-gray;
+    }
+}

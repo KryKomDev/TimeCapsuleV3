@@ -1,0 +1,79 @@
+//
+// TimeCapsule V3.2 wasm
+// by KryKom 2024
+//
+
+@use 'utils/colors';
+@use 'utils/components';
+@use "utils/palettes";
+
+// ---- STYLE ----
+
+$theme: palettes.$rainbow-green;
+
+// mobile
+@media screen and (max-width: 760px) {
+    body #input input {
+        width: 200px;
+    }
+}
+
+// pc
+@media screen and (min-width: 760px) {
+    body #input input {
+        width: 400px;
+    }
+}
+
+body {
+    
+    @include components.center();
+
+    #buttons {
+        display: flex;
+        justify-content: center;
+
+        a {
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bolder;
+            color: palettes.$github-dark-blue-gray;
+            //color: palettes.$github-ice-blue;
+            font-size: 110%;
+            letter-spacing: 2px;
+            cursor: pointer;
+            margin: 40px;
+            background-color: $theme;
+            box-shadow: 0 10px 0 mix($theme, palettes.$github-blue-gray, 50%);
+
+            p {
+                margin: 15px;
+            }
+
+            &:hover {
+                background-color: mix($theme, white, 80%);
+                box-shadow: 0 10px 0 mix($theme, palettes.$github-blue-gray, 70%);
+                //color: palettes.$github-white;
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        color: mix($theme, colors.$gray-10, 80%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #foot {
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 90%;
+        color: palettes.$github-light-blue-gray;
+    }
+}

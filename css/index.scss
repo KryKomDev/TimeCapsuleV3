@@ -1,0 +1,70 @@
+//
+// TimeCapsule V3.2
+// by KryKom 2024
+//
+
+@use 'utils/colors';
+@use 'utils/components';
+@use "utils/palettes";
+
+$theme: palettes.$rainbow-green;
+
+body {
+    @include components.center();
+
+    #input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        p {
+            margin: 50px 50px 10px;
+        }
+
+        input {
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            border-bottom: 1px dashed palettes.$github-light-blue-gray;
+            outline: none;
+            height: 30px;
+            color: palettes.$github-white;
+            margin: 0;
+            font-size: 100%;
+        }
+
+        #submit {
+            border-radius: 10px;
+            text-decoration: none;
+            //color: palettes.$github-ice-blue;
+            color: palettes.$github-dark-blue-gray;
+            font-weight: bolder;
+            font-size: 110%;
+            letter-spacing: 2px;
+            margin: 120px;
+            
+            @include components.button($theme);
+            
+            p {
+                margin: 15px;
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        color: mix($theme, colors.$gray-10, 70%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #foot {
+        margin-top: 50px;
+        font-size: 70%;
+        color: palettes.$github-light-blue-gray;
+    }
+}

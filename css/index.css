@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+body #input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body #input p {
+  margin: 50px 50px 10px;
+}
+body #input input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px dashed #848d97;
+  outline: none;
+  height: 30px;
+  color: #d1fafa;
+  margin: 0;
+  font-size: 100%;
+}
+body #input #submit {
+  border-radius: 10px;
+  text-decoration: none;
+  color: #161b22;
+  font-weight: bolder;
+  font-size: 110%;
+  letter-spacing: 2px;
+  margin: 120px;
+  background-color: #0ba511;
+  box-shadow: 0 10px 0 #1e6e27;
+  cursor: pointer;
+}
+body #input #submit:hover {
+  background-color: #3cb741;
+  box-shadow: 0 10px 0 #16841e;
+}
+body #input #submit p {
+  margin: 15px;
+}
+body p {
+  text-align: center;
+}
+body h1 {
+  color: #3ba73f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #foot {
+  margin-top: 50px;
+  font-size: 70%;
+  color: #848d97;
+}
+
+/*# sourceMappingURL=index.css.map */

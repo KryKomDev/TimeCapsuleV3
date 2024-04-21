@@ -1,0 +1,106 @@
+header {
+  display: flex;
+  margin: 0 20px 20px;
+  border-bottom: 1px solid #30363d;
+}
+header h1 {
+  font-size: 200%;
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: #0ba511;
+  font-weight: 900;
+  letter-spacing: -2px;
+  word-spacing: 10px;
+}
+
+#home {
+  margin: 0 20px 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #30363d;
+}
+#home h1 {
+  color: #e6c229;
+  font-size: 150%;
+}
+#home p {
+  font-size: 90%;
+}
+
+#legacy {
+  margin: 0 20px 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #30363d;
+}
+#legacy h1 {
+  color: #f17105;
+  font-size: 150%;
+}
+#legacy p {
+  font-size: 90%;
+  margin-bottom: 20px;
+}
+#legacy p strong {
+  color: #f17105;
+}
+
+#photos {
+  margin: 0 20px 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #30363d;
+}
+#photos h1 {
+  color: #d11149;
+  font-size: 150%;
+}
+#photos img {
+  width: 100%;
+  border-radius: 10px;
+}
+#photos p {
+  font-size: 80%;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+#about {
+  margin: 0 20px 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #30363d;
+}
+#about h1 {
+  color: #6610f2;
+  font-size: 150%;
+}
+#about p {
+  font-size: 90%;
+}
+#about a {
+  text-decoration: 1px solid underline;
+  color: #6610f2;
+}
+#about h3 {
+  color: #d1fafa;
+}
+
+#contact {
+  margin: 0 20px 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #30363d;
+}
+#contact h1 {
+  color: #1a8fe3;
+  font-size: 150%;
+}
+#contact p {
+  font-size: 90%;
+}
+
+footer {
+  margin: 0 20px 20px;
+}
+footer p {
+  font-size: 90%;
+  color: #848d97;
+}
+
+/*# sourceMappingURL=home-mobile.css.map */

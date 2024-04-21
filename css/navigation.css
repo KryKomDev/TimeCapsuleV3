@@ -1,0 +1,59 @@
+@media screen and (max-width: 760px) {
+  body #input input {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 760px) {
+  body #input input {
+    width: 400px;
+  }
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+body #buttons {
+  display: flex;
+  justify-content: center;
+}
+body #buttons a {
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #161b22;
+  font-size: 110%;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin: 40px;
+  background-color: #0ba511;
+  box-shadow: 0 10px 0 #1e6e27;
+}
+body #buttons a p {
+  margin: 15px;
+}
+body #buttons a:hover {
+  background-color: #3cb741;
+  box-shadow: 0 10px 0 #16841e;
+}
+body p {
+  text-align: center;
+}
+body h1 {
+  color: #2ba630;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #foot {
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 90%;
+  color: #848d97;
+}
+
+/*# sourceMappingURL=navigation.css.map */

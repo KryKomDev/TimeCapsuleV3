@@ -1,0 +1,308 @@
+header {
+  border-bottom: 1px solid #30363d;
+  margin: 0 60px 0 60px;
+  padding-bottom: 25px;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  border-radius: 10px;
+  color: #161b22;
+  margin: 30px;
+  padding: 15px;
+  text-decoration: none;
+}
+header a p {
+  margin: 0;
+  text-decoration: none;
+  text-underline: none;
+  font-weight: bolder;
+}
+header #n-home {
+  background-color: #e6c229;
+  box-shadow: 0 10px 0 #8b7c33;
+  cursor: pointer;
+}
+header #n-home:hover {
+  background-color: #ebce54;
+  box-shadow: 0 10px 0 #af982f;
+}
+header #n-legacy {
+  background-color: #f17105;
+  box-shadow: 0 10px 0 #915421;
+  cursor: pointer;
+}
+header #n-legacy:hover {
+  background-color: #f48d37;
+  box-shadow: 0 10px 0 #b75f16;
+}
+header #n-photos {
+  background-color: #d11149;
+  box-shadow: 0 10px 0 #812443;
+  cursor: pointer;
+}
+header #n-photos:hover {
+  background-color: #da416d;
+  box-shadow: 0 10px 0 #a11c45;
+}
+header #n-about {
+  background-color: #6610f2;
+  box-shadow: 0 10px 0 #4b2398;
+  cursor: pointer;
+}
+header #n-about:hover {
+  background-color: #8540f5;
+  box-shadow: 0 10px 0 #561bbc;
+}
+header #n-contact {
+  background-color: #1a8fe3;
+  box-shadow: 0 10px 0 #256390;
+  cursor: pointer;
+}
+header #n-contact:hover {
+  background-color: #48a5e9;
+  box-shadow: 0 10px 0 #2174b1;
+}
+header #n-navigation {
+  background-color: #0ba511;
+  box-shadow: 0 10px 0 #1e6e27;
+  cursor: pointer;
+}
+header #n-navigation:hover {
+  background-color: #3cb741;
+  box-shadow: 0 10px 0 #16841e;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 60px 60px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #30363d;
+}
+#home h1 {
+  color: #e6c229;
+  margin: 100px;
+  letter-spacing: 5px;
+  font-weight: 900;
+  font-size: 220%;
+}
+
+#legacy {
+  margin: 100px 60px 60px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #30363d;
+}
+#legacy .header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#legacy .header h1 {
+  color: #f17105;
+}
+#legacy table {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  border-spacing: 200px 50px;
+}
+#legacy table td:hover p {
+  font-size: 110%;
+}
+#legacy p {
+  color: #aaa;
+  transition-duration: 1s;
+  padding: 20px 20px 20px 10px;
+}
+#legacy p strong {
+  color: #f17105;
+  font-weight: 800;
+  padding-left: 0;
+}
+
+#photos {
+  border-bottom: 1px solid #30363d;
+  margin: 100px 60px 60px;
+}
+#photos .header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#photos .header h1 {
+  color: #d11149;
+}
+#photos #content {
+  display: flex;
+  align-items: start;
+  margin: 60px;
+}
+#photos #content #left, #photos #content #right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+#photos #content #left img, #photos #content #right img {
+  margin-top: 40px;
+  width: 60%;
+  transition-duration: 0.6s;
+  border-radius: 10px;
+}
+#photos #content #left img:hover, #photos #content #right img:hover {
+  width: 65%;
+}
+#photos #content #left p, #photos #content #right p {
+  margin-bottom: 60px;
+}
+
+#about {
+  border-bottom: 1px solid #30363d;
+  margin: 100px 60px 60px;
+  padding-bottom: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#about .header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#about .header h1 {
+  color: #6610f2;
+}
+#about h2 {
+  font-size: 130%;
+  color: #d1fafa;
+  margin-top: 100px;
+}
+#about a {
+  color: #6610f2;
+}
+
+#contact {
+  border-bottom: 1px solid #30363d;
+  margin: 100px 60px 20px;
+  padding-bottom: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#contact .header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#contact .header h1 {
+  color: #1a8fe3;
+}
+#contact p u {
+  cursor: pointer;
+  color: #1a8fe3;
+}
+#contact form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#contact form table {
+  width: 100%;
+}
+#contact form input, #contact form textarea {
+  background-color: #161b22;
+  color: #d1fafa;
+  height: 20px;
+  width: 35%;
+  border-radius: 10px;
+  font-size: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #161b22;
+}
+#contact form #msg {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  resize: none;
+  padding: 20px;
+  border: 3px solid #161b22;
+}
+#contact form #msg:hover {
+  height: 303px;
+}
+#contact form #msg:hover, #contact form input:hover {
+  outline: 0;
+  border: 1px solid #1a8fe3;
+}
+#contact form #msg:focus-visible, #contact form input:focus-visible {
+  outline: 0;
+  border: 3px solid #1a8fe3;
+}
+#contact form #msg::-webkit-scrollbar {
+  color: #111;
+  width: 15px;
+}
+#contact form #msg::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  border: 4px solid #222;
+  background-color: #444;
+}
+#contact form #msg::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+#contact form #submit {
+  margin-top: 60px;
+  width: 250px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  height: 70px;
+  border: none;
+  color: #161b22;
+  background-color: #1a8fe3;
+  box-shadow: 0 10px 0 #256390;
+  cursor: pointer;
+}
+#contact form #submit:hover {
+  background-color: #48a5e9;
+  box-shadow: 0 10px 0 #2174b1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+footer p {
+  font-size: 80%;
+  color: #848d97;
+}
+
+/*# sourceMappingURL=home.css.map */
