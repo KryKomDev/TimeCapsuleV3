@@ -2,6 +2,6 @@
     const element = document.getElementById(id);
     
     if (element.value === "Landsdorfův Pahorek") {
-        window.location.replace("/navigation");
+        window.location.replace("TimeCapsuleV3/navigation");
     }
 }
