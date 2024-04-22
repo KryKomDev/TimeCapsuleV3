@@ -15,7 +15,7 @@ body {
     #input {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
         flex-wrap: wrap;
         
         p {
@@ -64,7 +64,7 @@ body {
 
     #foot {
         margin-top: 50px;
-        font-size: 70%;
+        font-size: 90%;
         color: palettes.$github-light-blue-gray;
     }
 }

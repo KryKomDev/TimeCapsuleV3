@@ -4,7 +4,7 @@
 //
 
 // file imports
-@use 'utils/center';
+@use 'utils/components';
 @use "utils/colors";
 @use "utils/palettes";
 
@@ -28,7 +28,7 @@
 // pc
 @media screen and (min-width: 760px){
     body {
-        font-size: 160%;
+        font-size: 120%;
     }
 }
 
