@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TimeCapsuleV3.2a",
   "resources": {
-    "hash": "sha256-WsANAg11crbtkSQwqUw5YPKu5mQJIRu8eAZoLx0Atmo=",
+    "hash": "sha256-J9xnZC8jyt0UDpK9A9slp7BvOvWdBN4SrqyVgONAWJM=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.nnuvjrufhf.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -48,7 +48,7 @@
       "System.Text.Encodings.Web.wasm": "sha256-NnePSWCgIId8nOPCgziTKhDyG6uCBs+3W6fazrWLoUA=",
       "System.Text.Json.wasm": "sha256-Parnf2p7TaYhLJUZobM4X2HMf1l5723i/E1q+7ElduI=",
       "System.Text.RegularExpressions.wasm": "sha256-W20q/uEUAv0A+F6irUkY0pCZJo76wNuWpz3XgcLFB2M=",
-      "TimeCapsuleV3.2a.wasm": "sha256-ih63ZrW6H9jpJ4JCrLZCVNKgj2cCLTmqNzXmfva5UdU="
+      "TimeCapsuleV3.2a.wasm": "sha256-6R+qHueI1o7jek+G8cg2bX9Of/v+gK4WRsM+em7VTF4="
     }
   },
   "cacheBootResources": true,
